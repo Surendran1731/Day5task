@@ -22,4 +22,6 @@ class Person{
   }
 }
 let person=new Person("Johon",20,"john123@gmail.com","MCA","London",122354678,"Unmarried");
+let person1=new Person("Surendran",23,"rose123@gmail.com","MBA","London",9876543210, "married")
+console.log(person1.personinfo());
 console.log(person.personinfo());
